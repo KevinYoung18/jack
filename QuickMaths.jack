@@ -1,0 +1,16 @@
+class QuickMaths {
+   function void main() 
+   {
+      var int i;
+	  var int j;
+      var int sum;
+
+      let i = Keyboard.readInt("Enter first number: ");
+	  let j =  Keyboard.readInt("Enter next number: ");
+      let sum = i + j;
+	  
+      do Output.printInt(sum);
+	  do Output.printString("Quick maths");
+      return;
+   }
+}
